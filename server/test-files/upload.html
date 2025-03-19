@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Resume Upload</title>
+</head>
+<body>
+    <h2>Test Resume Upload</h2>
+    <form action="http://localhost:5000/api/resumes/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="resume" accept=".pdf,.doc,.docx" required>
+        <button type="submit">Upload Resume</button>
+    </form>
+</body>
+</html> 

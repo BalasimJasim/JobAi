@@ -1,0 +1,6 @@
+/.cursor
+/FinalInstructions.xml.xml
+/Instructions.xml
+/migration.xml
+node_modules/
+.env
